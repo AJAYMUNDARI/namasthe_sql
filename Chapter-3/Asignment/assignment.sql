@@ -13,3 +13,7 @@ and ship_date > '2020-11-30'
 
 --4- write a query to get all the orders where customer name neither start with "A" and nor ends with "n"--
 select * from orders where customer_name not like 'A%n';
+
+--5- write a query to get all the orders where profit is negative--
+select * from orders
+where profit < 0;
